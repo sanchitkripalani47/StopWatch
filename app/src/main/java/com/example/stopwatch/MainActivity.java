@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //To start the count
     public void startChronometer(View view1) {
         if (!running) {
             chronometer.setBase(SystemClock.elapsedRealtime() - pauseOffSet);
